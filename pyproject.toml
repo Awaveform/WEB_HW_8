@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "goit-web-hw-8"
+version = "0.1.0"
+description = ""
+authors = ["Antonii"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mongoengine = "^0.27.0"
+redis = "^5.0.1"
+pika = "^1.3.2"
+redis-lru = "^0.1.2"
+faker = "^22.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
